@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="sanity">
+<test name="booking">
+<classes>
+<class name="com.guarented.ecommerce.Testplans.BokItemInGuarented">
+<methods>
+     <include name="bookIteminGuarentedthroughproducts"/> 
+<!--        <include name="bookIteminGuarentedthroughSearch"/>  -->
+ <!-- <include name="bookIteminGuarentedthroughWholeSearch"/> -->
+  <!-- <include name="bookIteminGuarentedthroughRENTTOOWN"/> -->
+<!--   <include name="bookitemthroughcartwhencartisempty"/>  -->
+</methods>
+</class>
+</classes>
+</test>
+</suite>

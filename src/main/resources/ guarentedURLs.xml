@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="sanity">
+<test name="verifyHoLinks">
+<classes>
+<class name="com.guarented.ecommerce.pages.URLS">
+<!-- <methods>
+<include name="inialization"/>
+<include name="verifyhomepagefooterlinksofHome_Appliances_on_Rent"/>
+<include name="verifyhomepagefooterlinksofHome_Furniture_on_Rent"/>
+</methods> -->
+</class>
+</classes>
+</test>
+</suite>

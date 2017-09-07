@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="sanity">
+<test name="verifyHoLinks">
+<classes>
+<class name="com.guarented.ecommerce.Testplans.TestBookItemThroughExcel">
+<methods>
+<!--  <include name="sendingproductsthroughexcelwithlogin"/>  -->
+ <include name="sendingproductsthroughexcelwithoutlogin"/>
+
+</methods>
+</class>
+</classes>
+</test>
+</suite>

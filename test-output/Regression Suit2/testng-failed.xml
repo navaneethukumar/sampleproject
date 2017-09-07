@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Suit2]">
+  <test name="booking(failed)">
+    <classes>
+      <class name="com.guaren.ecommerce.testscripts.TC003_testBookingitemthroughSearch">
+        <methods>
+          <include name="bookitemthroughproducts"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.guaren.ecommerce.testscripts.TC003_testBookingitemthroughSearch -->
+    </classes>
+  </test> <!-- booking(failed) -->
+</suite> <!-- Failed suite [Regression Suit2] -->

@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">verifyHoLinks</td><td class="numi">58</td><td class="numi">58</td><td class="numi">0</td><td class="numi">0</td><td class="numi">1,695.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">verifyHoLinks &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="58">com.guarented.ecommerce.pages.URLS</td><td><a href="#m1"><b>Doubledoorfridge</b>  </a></td><td class="numi">1</td><td>1502266782928</td><td class="numi">13337</td></tr><tr class="passedodd"><td><a href="#m2"><b>appliances</b>  </a></td><td class="numi">1</td><td>1502266803317</td><td class="numi">21449</td></tr><tr class="passedodd"><td><a href="#m3"><b>applpackages</b>  </a></td><td class="numi">1</td><td>1502266838607</td><td class="numi">17263</td></tr><tr class="passedodd"><td><a href="#m4"><b>basicappliancespackage</b>  </a></td><td class="numi">1</td><td>1502266862741</td><td class="numi">4141</td></tr><tr class="passedodd"><td><a href="#m5"><b>basickitchenpackage</b>  </a></td><td class="numi">1</td><td>1502266873803</td><td class="numi">13475</td></tr><tr class="passedodd"><td><a href="#m6"><b>beds</b>  </a></td><td class="numi">1</td><td>1502266895139</td><td class="numi">18933</td></tr><tr class="passedodd"><td><a href="#m7"><b>brandnewdoublebed</b>  </a></td><td class="numi">1</td><td>1502266919841</td><td class="numi">14525</td></tr><tr class="passedodd"><td><a href="#m8"><b>brandnewdoublemattresses</b>  </a></td><td class="numi">1</td><td>1502266940337</td><td class="numi">14472</td></tr><tr class="passedodd"><td><a href="#m9"><b>brandnewsinglebed</b>  </a></td><td class="numi">1</td><td>1502266980262</td><td class="numi">14474</td></tr><tr class="passedodd"><td><a href="#m10"><b>brandnewsingledoor</b>  </a></td><td class="numi">1</td><td>1502267003356</td><td class="numi">13501</td></tr><tr class="passedodd"><td><a href="#m11"><b>brandnewsinglematteress</b>  </a></td><td class="numi">1</td><td>1502267022890</td><td class="numi">17251</td></tr><tr class="passedodd"><td><a href="#m12"><b>brandnewstudychairs</b>  </a></td><td class="numi">1</td><td>1502267046206</td><td class="numi">14321</td></tr><tr class="passedodd"><td><a href="#m13"><b>brandnewstudystudypackage</b>  </a></td><td class="numi">1</td><td>1502267083691</td><td class="numi">13580</td></tr><tr class="passedodd"><td><a href="#m14"><b>brandnewtoploadwashingmachine</b>  </a></td><td class="numi">1</td><td>1502267135285</td><td class="numi">13458</td></tr><tr class="passedodd"><td><a href="#m15"><b>coltondoublebedroompackage</b>  </a></td><td class="numi">1</td><td>1502267163166</td><td class="numi">13281</td></tr><tr class="passedodd"><td><a href="#m16"><b>coltonsinglebedroompackage</b>  </a></td><td class="numi">1</td><td>1502267195743</td><td class="numi">13367</td></tr><tr class="passedodd"><td><a href="#m17"><b>coltontwinpackage</b>  </a></td><td class="numi">1</td><td>1502267230156</td><td class="numi">13315</td></tr><tr class="passedodd"><td><a href="#m18"><b>completepackage</b>  </a></td><td class="numi">1</td><td>1502267256658</td><td class="numi">14373</td></tr><tr class="passedodd"><td><a href="#m19"><b>convectionmicrowave</b>  </a></td><td class="numi">1</td><td>1502267280249</td><td class="numi">13272</td></tr><tr class="passedodd"><td><a href="#m20"><b>diningset</b>  </a></td><td class="numi">1</td><td>1502267310563</td><td class="numi">21295</td></tr><tr class="passedodd"><td><a href="#m21"><b>elite5sofa</b>  </a></td><td class="numi">1</td><td>1502267347779</td><td class="numi">7306</td></tr><tr class="passedodd"><td><a href="#m22"><b>elitebedtable</b>  </a></td><td class="numi">1</td><td>1502267364009</td><td class="numi">13254</td></tr><tr class="passedodd"><td><a href="#m23"><b>elitecentertable</b>  </a></td><td class="numi">1</td><td>1502267394865</td><td class="numi">13290</td></tr><tr class="passedodd"><td><a href="#m24"><b>elitecoltondoublebed</b>  </a></td><td class="numi">1</td><td>1502267431036</td><td class="numi">14408</td></tr><tr class="passedodd"><td><a href="#m25"><b>elitecoltonsinglebed</b>  </a></td><td class="numi">1</td><td>1502267464677</td><td class="numi">7381</td></tr><tr class="passedodd"><td><a href="#m26"><b>elitedoublebed</b>  </a></td><td class="numi">1</td><td>1502267489882</td><td class="numi">14582</td></tr><tr class="passedodd"><td><a href="#m27"><b>elitesofa3</b>  </a></td><td class="numi">1</td><td>1502267515422</td><td class="numi">7266</td></tr><tr class="passedodd"><td><a href="#m28"><b>elitesttudytable</b>  </a></td><td class="numi">1</td><td>1502267536792</td><td class="numi">13334</td></tr><tr class="passedodd"><td><a href="#m29"><b>elitestudychairs</b>  </a></td><td class="numi">1</td><td>1502267571977</td><td class="numi">35526</td></tr><tr class="passedodd"><td><a href="#m30"><b>elitestudypackage</b>  </a></td><td class="numi">1</td><td>1502267627201</td><td class="numi">13264</td></tr><tr class="passedodd"><td><a href="#m31"><b>elitewardrobe</b>  </a></td><td class="numi">1</td><td>1502267647449</td><td class="numi">12262</td></tr><tr class="passedodd"><td><a href="#m32"><b>elitteamillasinglebed</b>  </a></td><td class="numi">1</td><td>1502267666729</td><td class="numi">14518</td></tr><tr class="passedodd"><td><a href="#m33"><b>fourglassdiningset</b>  </a></td><td class="numi">1</td><td>1502267692340</td><td class="numi">14316</td></tr><tr class="passedodd"><td><a href="#m34"><b>fridge</b>  </a></td><td class="numi">1</td><td>1502267724438</td><td class="numi">17690</td></tr><tr class="passedodd"><td><a href="#m35"><b>fridgesingledoor</b>  </a></td><td class="numi">1</td><td>1502267762428</td><td class="numi">13291</td></tr><tr class="passedodd"><td><a href="#m36"><b>frontloadashingmachine</b>  </a></td><td class="numi">1</td><td>1502267789842</td><td class="numi">13428</td></tr><tr class="passedodd"><td><a href="#m37"><b>furniture</b>  </a></td><td class="numi">1</td><td>1502267820552</td><td class="numi">23330</td></tr><tr class="passedodd"><td><a href="#m38"><b>furnpackages</b>  </a></td><td class="numi">1</td><td>1502267858410</td><td class="numi">17306</td></tr><tr class="passedodd"><td><a href="#m39"><b>largetv</b>  </a></td><td class="numi">1</td><td>1502267882695</td><td class="numi">13291</td></tr><tr class="passedodd"><td><a href="#m40"><b>mattresses</b>  </a></td><td class="numi">1</td><td>1502267904728</td><td class="numi">17366</td></tr><tr class="passedodd"><td><a href="#m41"><b>mediumtv</b>  </a></td><td class="numi">1</td><td>1502267931194</td><td class="numi">13352</td></tr><tr class="passedodd"><td><a href="#m42"><b>microwave</b>  </a></td><td class="numi">1</td><td>1502267952006</td><td class="numi">14277</td></tr><tr class="passedodd"><td><a href="#m43"><b>recliners</b>  </a></td><td class="numi">1</td><td>1502267981020</td><td class="numi">17420</td></tr><tr class="passedodd"><td><a href="#m44"><b>royalappliancepackage</b>  </a></td><td class="numi">1</td><td>1502268019956</td><td class="numi">13427</td></tr><tr class="passedodd"><td><a href="#m45"><b>royalappliancespackage</b>  </a></td><td class="numi">1</td><td>1502268060995</td><td class="numi">13242</td></tr><tr class="passedodd"><td><a href="#m46"><b>royalbroadbanddesk</b>  </a></td><td class="numi">1</td><td>1502268084707</td><td class="numi">14266</td></tr><tr class="passedodd"><td><a href="#m47"><b>royalrecliner</b>  </a></td><td class="numi">1</td><td>1502268105896</td><td class="numi">13241</td></tr><tr class="passedodd"><td><a href="#m48"><b>sixglassdiningtable</b>  </a></td><td class="numi">1</td><td>1502268128764</td><td class="numi">14385</td></tr><tr class="passedodd"><td><a href="#m49"><b>smalltv</b>  </a></td><td class="numi">1</td><td>1502268151467</td><td class="numi">13228</td></tr><tr class="passedodd"><td><a href="#m50"><b>sofas</b>  </a></td><td class="numi">1</td><td>1502268180686</td><td class="numi">21283</td></tr><tr class="passedodd"><td><a href="#m51"><b>solomicrowave</b>  </a></td><td class="numi">1</td><td>1502268232300</td><td class="numi">13898</td></tr><tr class="passedodd"><td><a href="#m52"><b>storage</b>  </a></td><td class="numi">1</td><td>1502268253530</td><td class="numi">17737</td></tr><tr class="passedodd"><td><a href="#m53"><b>studychairs</b>  </a></td><td class="numi">1</td><td>1502268285306</td><td class="numi">17437</td></tr><tr class="passedodd"><td><a href="#m54"><b>studytable</b>  </a></td><td class="numi">1</td><td>1502268312638</td><td class="numi">7281</td></tr><tr class="passedodd"><td><a href="#m55"><b>tables</b>  </a></td><td class="numi">1</td><td>1502268330327</td><td class="numi">17363</td></tr><tr class="passedodd"><td><a href="#m56"><b>television</b>  </a></td><td class="numi">1</td><td>1502268373667</td><td class="numi">17382</td></tr><tr class="passedodd"><td><a href="#m57"><b>toploadwashingmachine</b>  </a></td><td class="numi">1</td><td>1502268414443</td><td class="numi">13361</td></tr><tr class="passedodd"><td><a href="#m58"><b>washingmachine</b>  </a></td><td class="numi">1</td><td>1502268442536</td><td class="numi">17592</td></tr>
+</table>
+<h1>verifyHoLinks</h1>
+<h2 id="m1">com.guarented.ecommerce.pages.URLS:applpackages</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.guarented.ecommerce.pages.URLS:furnpackages</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.guarented.ecommerce.pages.URLS:toploadwashingmachine</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.guarented.ecommerce.pages.URLS:studytable</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.guarented.ecommerce.pages.URLS:tables</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.guarented.ecommerce.pages.URLS:fridge</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.guarented.ecommerce.pages.URLS:storage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.guarented.ecommerce.pages.URLS:coltondoublebedroompackage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.guarented.ecommerce.pages.URLS:royalrecliner</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.guarented.ecommerce.pages.URLS:brandnewsinglematteress</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.guarented.ecommerce.pages.URLS:appliances</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.guarented.ecommerce.pages.URLS:coltonsinglebedroompackage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.guarented.ecommerce.pages.URLS:frontloadashingmachine</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.guarented.ecommerce.pages.URLS:elitteamillasinglebed</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.guarented.ecommerce.pages.URLS:furniture</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.guarented.ecommerce.pages.URLS:completepackage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.guarented.ecommerce.pages.URLS:fourglassdiningset</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.guarented.ecommerce.pages.URLS:royalappliancespackage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">com.guarented.ecommerce.pages.URLS:elitecentertable</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">com.guarented.ecommerce.pages.URLS:royalappliancepackage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">com.guarented.ecommerce.pages.URLS:basickitchenpackage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">com.guarented.ecommerce.pages.URLS:brandnewsinglebed</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">com.guarented.ecommerce.pages.URLS:elitecoltondoublebed</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">com.guarented.ecommerce.pages.URLS:elitesttudytable</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">com.guarented.ecommerce.pages.URLS:sixglassdiningtable</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">com.guarented.ecommerce.pages.URLS:Doubledoorfridge</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">com.guarented.ecommerce.pages.URLS:brandnewdoublebed</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">com.guarented.ecommerce.pages.URLS:largetv</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">com.guarented.ecommerce.pages.URLS:convectionmicrowave</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">com.guarented.ecommerce.pages.URLS:diningset</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">com.guarented.ecommerce.pages.URLS:television</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">com.guarented.ecommerce.pages.URLS:washingmachine</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">com.guarented.ecommerce.pages.URLS:brandnewsingledoor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">com.guarented.ecommerce.pages.URLS:solomicrowave</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m35">com.guarented.ecommerce.pages.URLS:basicappliancespackage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m36">com.guarented.ecommerce.pages.URLS:coltontwinpackage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m37">com.guarented.ecommerce.pages.URLS:mediumtv</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m38">com.guarented.ecommerce.pages.URLS:recliners</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m39">com.guarented.ecommerce.pages.URLS:brandnewstudystudypackage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m40">com.guarented.ecommerce.pages.URLS:elite5sofa</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m41">com.guarented.ecommerce.pages.URLS:elitedoublebed</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m42">com.guarented.ecommerce.pages.URLS:brandnewdoublemattresses</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m43">com.guarented.ecommerce.pages.URLS:elitewardrobe</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m44">com.guarented.ecommerce.pages.URLS:brandnewstudychairs</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m45">com.guarented.ecommerce.pages.URLS:royalbroadbanddesk</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m46">com.guarented.ecommerce.pages.URLS:smalltv</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m47">com.guarented.ecommerce.pages.URLS:elitebedtable</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m48">com.guarented.ecommerce.pages.URLS:elitestudychairs</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m49">com.guarented.ecommerce.pages.URLS:fridgesingledoor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m50">com.guarented.ecommerce.pages.URLS:brandnewtoploadwashingmachine</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m51">com.guarented.ecommerce.pages.URLS:elitesofa3</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m52">com.guarented.ecommerce.pages.URLS:elitestudypackage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m53">com.guarented.ecommerce.pages.URLS:sofas</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m54">com.guarented.ecommerce.pages.URLS:studychairs</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m55">com.guarented.ecommerce.pages.URLS:mattresses</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m56">com.guarented.ecommerce.pages.URLS:microwave</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m57">com.guarented.ecommerce.pages.URLS:beds</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m58">com.guarented.ecommerce.pages.URLS:elitecoltonsinglebed</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

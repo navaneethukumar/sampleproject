@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="sanity">
+	<test name="testwithmultipleclasses">
+		<classes>
+		
+			<class name="com.guarented.ecommerce.Testplans.BokItemInGuarented"/>
+			<!-- <class name="com.guarented.ecommerce.Testplans.CartPageTestPlan"/> -->
+		
+		</classes>
+	</test>
+</suite>

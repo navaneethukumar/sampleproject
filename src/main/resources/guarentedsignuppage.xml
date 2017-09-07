@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="sanity">
+<test name="Cartpage">
+<classes>
+<class name="com.guarented.ecommerce.Testplans.SignuppageTestPlan">
+<methods>
+  
+ <include name="testproductsthroughexcel"/> 
+
+</methods>
+</class>
+</classes>
+</test>
+</suite>

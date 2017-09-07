@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Automation-Regression-Report]" parallel="tests">
+  <parameter name="password" value="neethu23"/>
+  <parameter name="instance" value="IDC"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="healthCheck" value="false"/>
+  <parameter name="host" value="https://staging.guarented.com/"/>
+  <parameter name="client" value="IDC"/>
+  <parameter name="userId" value="naresh@guarented.com"/>
+  <test name="Accenture-SMOKE-TestPlan(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="validateDefaultSRStatusInResultGrid"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.guarented.ecommerce.testplan.Searchusingttestdata">
+        <methods>
+          <include name="validateDefaultSRStatusInResultGrid"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.guarented.ecommerce.testplan.Searchusingttestdata -->
+    </classes>
+  </test> <!-- Accenture-SMOKE-TestPlan(failed) -->
+</suite> <!-- Failed suite [Automation-Regression-Report] -->

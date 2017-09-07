@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="sanity">
+<test name="Cartpage">
+<classes>
+<class name="com.guarented.ecommerce.Testplans.CartPageTestPlan">
+<methods>
+   <!-- <include name="calculatepricereletedtoquantity"/>  -->
+ <include name="calculatepricereletedtoquantitywithdouble"/>
+ <!-- -<include name="calculatepricereletedtowithallquantity"/>  -->
+
+</methods>
+</class>
+</classes>
+</test>
+</suite>
